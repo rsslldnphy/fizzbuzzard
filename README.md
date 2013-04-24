@@ -24,6 +24,8 @@ Here's how to use it:
     puts 5  # => "BUZZ"
     puts 15 # => "FIZZBUZZ"
 
+    (1..100).each { |n| puts n } # solves FizzBuzz!!
+
 Donations are what keeps this project alive. Please send money. Please.
 
 Oh, and in case you're interested, here's the current test status:
