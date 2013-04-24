@@ -8,5 +8,3 @@ class Fixnum
     else to_n end
   end
 end
-
-100.times { |n| puts n }
