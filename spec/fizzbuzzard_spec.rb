@@ -1,4 +1,4 @@
-require_relative '../fizzbuzzard'
+require_relative '../lib/fizzbuzzard'
 
 describe "FizzBuzz" do
   it "generates the fizz buzz numbers correctly" do

@@ -11,7 +11,18 @@ It goes like this:
 
 Not difficult. But why restrict the magic of FizzBuzz to an interview, throwing away perfectly working code you could be using in production?
 
-Now you don't have to. FizzBuzzard monkey patches Fixnum so that all multiples of 3 display as "FIZZ", all multiples of 5 as "BUZZ", and all multiples of 3 and 5 as "FIZZBUZZ". All the way through your program, for absolutely every number.
+Now you don't have to. FizzBuzzard monkey patches Fixnum so that all multiples of 3 display as "FIZZ", all multiples of 5 as "BUZZ", and all multiples of 3 and 5 as "FIZZBUZZ". All the way through your program, for absolutely every Fixnum.
+
+
+Here's how to use it:
+
+    gem 'fizzbuzzard' # in your Gemfile
+
+    require 'fizzbuzzard'
+
+    puts 3  # => "FIZZ"
+    puts 5  # => "BUZZ"
+    puts 15 # => "FIZZBUZZ"
 
 Donations are what keeps this project alive. Please send money. Please.
 
