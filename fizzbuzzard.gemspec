@@ -7,6 +7,8 @@ Gem::Specification.new do |s|
   s.authors       = ["Russell Dunphy"]
   s.email         = ['russell@russelldunphy.com']
   s.files         = `git ls-files`.split($\)
+  s.test_files    = s.files.grep(%r{^(test|spec|features)/})
+  s.require_paths = ["lib"]
   s.homepage      = 'http://github.com/rsslldnphy/fizzbuzzard'
 
   s.add_development_dependency "rspec"
